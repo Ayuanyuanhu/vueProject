@@ -1,0 +1,12 @@
+{
+  "baseUrl": {
+    "monitor": "http://10.3.98.154:10041/",
+    "common": "http://10.3.98.154:2002/",
+    "formula": "http://10.3.98.153:8203/",
+    "formulaResource": "http://10.3.98.153:4771/"
+  },
+  "page": {
+    "defaultPageSize": 15,
+    "defaultPageSizeList": [15, 30, 60, 100]
+  }
+}

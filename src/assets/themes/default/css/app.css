@@ -1,0 +1,70 @@
+/* 页签 */
+.el-tabs__item.is-active {
+  color: #7459FC;
+  background-color: #D6D8FF;
+}
+.el-tabs__item {
+  padding: 0 16px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  color: #7459FC;
+  background-color: #F1F3FA;
+  position: relative;
+}
+.el-tabs__nav {
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.el-tabs__header {
+  border: none;
+  padding: 0;
+  position: relative;
+  margin: 0 0 15px;
+}
+.el-tabs__active-bar {
+    position: absolute;
+    background-color: #D6D8FF;
+}
+/* 时期选择器 */
+.el-date-table td.today {
+    color: #7459FC;
+    position: relative;
+}
+.el-date-table td.today:before {
+    border-top: .5em solid #7459FC;
+}
+.el-date-table td.current:not(.disabled), .el-date-table td.end-date, .el-date-table td.start-date {
+    background-color: #7459FC!important;
+    color: #fff;
+}
+.dialog-width-ml{
+  width: 600px;
+}
+/* 单选框 */
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #7459FC;
+    background: #7459FC;
+}
+/* 滚动条宽度和高度 */
+  .left-concent::-webkit-scrollbar, .filter-newTree::-webkit-scrollbar, .filter-tree::-webkit-scrollbar, .filter-card::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    background-color: #f5f5f5;
+  }
+  /*定义滚动条的轨道，内阴影及圆角*/
+  .left-concent::-webkit-scrollbar-track, .filter-newTree::-webkit-scrollbar-track, .filter-tree::-webkit-scrollbar-track, .filter-card::-webkit-scrollbar-track{
+    -webkit-box-shadow: insert 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  /*定义滑块，内阴影及圆角*/
+  .left-concent::-webkit-scrollbar-thumb, .filter-newTree::-webkit-scrollbar-thumb, .filter-tree::-webkit-scrollbar-thumb, .filter-card::-webkit-scrollbar-thumb{
+    height: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: ##F9FAFC;
+  }
